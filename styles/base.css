@@ -6,8 +6,8 @@
     --accent2-color: #A3B18A;
     --accent3-color: #DAD7CD;
 
-    --heading-font: times, sans-serif;
-    --paragraph-font: times, sans-serif;
+    --heading-font: "Roboto", sans-serif;;
+    --paragraph-font: "Roboto", sans-serif;
 
     --headline-color-on-white: var(--primary-color); 
     --headline-color-on-color: var(--accent3-color); 
