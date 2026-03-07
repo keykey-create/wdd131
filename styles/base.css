@@ -110,7 +110,6 @@ main h1 {
 
 .card {
     padding: 20px;
-    background-color: var(--accent3-color);
     color: var(--headline-color-on-color);
     text-align: center;
     border-radius: 10px;
