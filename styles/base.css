@@ -109,23 +109,31 @@ main h1 {
 }
 
 .card {
+    padding: 20px;
+    background-color: var(--accent3-color);
+    color: var(--headline-color-on-color);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 26px;
+    color: var(--heading-font);
+    background-color: var(--headline-color-on-white);
+}
+
+
+.about {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 1fr auto auto;
     grid-column: 1;
     grid-row: 2;
-    padding: 20px;
-    background-color: var(--accent3-color);
-    color: var(--headline-color-on-color);
-    text-align: center;
 }
 
-.card h2 {
+.about h2 {
     grid-row: 1;
-    font-size: 26px;
-    color: var(--heading-font);
-    background-color: var(--headline-color-on-white);
-
 }
 
 .story {
@@ -215,10 +223,6 @@ text-align: left;
     text-align: left;
 }
 
-.card {
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
 footer {
     grid-column: 1 / 3;
