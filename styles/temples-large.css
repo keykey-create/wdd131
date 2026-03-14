@@ -1,0 +1,43 @@
+:root {
+    --back_color1: #0D1B2A;
+    --back_color2: #1D5599;
+    --back_color3: #57849C;
+    --accent_color1: #7FC6DE;
+    --accent_color2: #EFEFEF;
+}
+
+@media screen and (min-width: 780px) {
+    header {
+		display: flex;
+
+		align-items: flex-end;
+	    justify-content: space-between;
+	}
+
+	
+	#layout {
+	
+		flex-direction: row;
+	}
+
+
+	#menu {
+		display: none;
+	}
+
+	.navigation {
+		display: flex;
+		flex-direction: row;
+	}
+	
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+    .navigation a:hover {
+        background-color: var(--back_color3);
+        color: var(--accent_color2);
+        font-weight: 700;
+    }
+}
