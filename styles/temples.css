@@ -61,6 +61,7 @@ main {
 
 nav {
 	background-color: var(--back_color1);
+    display: flex;
 }
 nav ul {
 	list-style-type: none;
