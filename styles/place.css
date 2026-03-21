@@ -1,9 +1,9 @@
 :root {
     --back_color1: #0D1B2A;
     --back_color2: #4b2b07;
-    --accent_color1: #7FC6DE;
+    --accent_color1: #e4c330;
     --accent_color2: #EFEFEF;
-    --wild_red: #FF0000;
+
 }
 
 * {
@@ -27,30 +27,24 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-/* padding: 0px keeps nav-bar at bottom of header */
 header {
     background-color: var(--back_color2);
     padding: 2rem;
     color: white;
-    border: 10px solid var(--back_color2);
+    border: 10px solid var(--back_color1);
 }
 
-/* justify-content: center; */
-/* max-width: 1000px; */
+
 main {
     position: relative;
     padding: 0.1rem;
     background-color: var(--accent_color2);
-    /* background-color: aquamarine; */
-    /* height: auto; */
 }
 
 footer {
     padding: 1rem;
     color: white;
-    background-color: var(--back_color1);
-    /* border-top: 1px solid var(--back_color1); */
-    /* border-bottom: 10px solid red; */
+    background-color: var(--back_color2);
     text-align: center;
 }
 
@@ -65,14 +59,12 @@ figcaption {
     width: auto;
 }
 
-/* NOTE: 50% width causes <p> and <span> to break onto different lines */
 .data p, .weather p {
     display: inline-block;
     width: 45%;
     margin: 0.1rem;
     text-align: right;
     font-weight: bold;
-    /* background-color: red;  TODO: DEBUG */
 }
 
 .data span, .weather span {
@@ -80,10 +72,8 @@ figcaption {
     width: 45%;
     margin: 0.1rem;
     text-align: left;
-    /* background-color: greenyellow;  TODO: DEBUG */
 }
 
-/* https://www.iconfinder.com/icons/1530374/weather_day_sand_sandstorm_sun_icon */
 .weather h2::after {
     content: url(../images/weather-icon.svg);
     display: block;
@@ -91,8 +81,7 @@ figcaption {
     margin: auto;
 }
 
-/* Centers image when placed inside of a div */
-/* Note: display: block kills grid settings */
+
 .icon-img {
     display: block;
     margin: 0 auto;
@@ -105,13 +94,12 @@ figcaption {
 }
 
 .heroImage img{
-    /* margin: auto; */
     width: 100%;
     height: 100%;
 }
 
 
-/* Note image cannot be centered if the width is set to 100% (full-width). */
+
 .center {
     display: block;
     margin-left: auto;
