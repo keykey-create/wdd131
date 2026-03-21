@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Place Page for WDD131 - Keyarra Bassett">
+    <meta name="author" content="Keyarra Bassett">
+    <meta name="keywords" content="Place page - Keyarra Bassett">
+
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <title>Place Page - Keyarra Bassett</title>
+</head>
+<body>
+    <header>
+        <h1>Wyoming</h1>
+    </header>
+    
+    <main>
+        <figure>
+            <picture class="heroImage">
+                <source srcset="images/wyoming-bison.webp" media="(min-width: 550px)">
+                <img src="images/wyoming-bison.webp" width="614" height="768" alt="Wyoming bison eating grass">
+            </picture>
+            <figcaption>Photo by Chait Goli</a> on <a href="https://www.pexels.com/photo/photo-of-bison-on-grass-field-2666609/">Pexels</a>
+            </figcaption>
+        </figure>
+
+        <div class="data">
+            <h2 class="pad">
+                Data
+            </h2>
+
+            <p>Area:</p>
+            <span>97,914 square miles.</span>
+
+            <p>Population:</p>
+            <span>592,720 (estimated)</span>
+            
+            <p>Capital:</p>
+            <span>Cheyenne</span>
+            
+            <p>Currency:</p>
+            <span>Dollars</span>
+
+            <p>Time Zone:</p>
+            <span>UTC-6</span>
+
+            <p>Calling Code:</p>
+            <span>+1 (307)</span>
+
+            <p>Internet TLD:</p>
+            <span>.com</span>
+        </div>
+
+        <div class="weather">
+            <h2>
+                Weather
+            </h2>
+            <p>Temperature:</p>
+            <span id="temp"></span>
+
+            <p>Conditions:</p>
+            <span id="condition">Partly Cloudy</span>
+            
+            <p>Wind:</p>
+            <span id="wind">5 km/h</span>
+            
+            <p>Wind Chill:</p>
+            <span id="chill">--</span>
+
+            <div id="chill-button">
+                <button>Calculate Wind Chill</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy;<span id="currentyear">year </span> | Keyarra Bassett | United States
+        </p>
+        <p id="lastModified">Lorem ipsum dolor, sit amet consectetur </p>
+    </footer>
+</body>
+</html>
