@@ -4,7 +4,6 @@
     --back_color3: #57849C;
     --accent_color1: #7FC6DE;
     --accent_color2: #EFEFEF;
-    --wild_red: #FF0000;
 }
 
 * {
@@ -16,13 +15,12 @@
 h1 {
     margin: 1rem;
     font-size: 1.5rem;
-    color: white;
-    /* text-align: center; */
+    color: var(--accent_color2);
+    text-align: center;
 }
 
 h2 {
     font-size: 2rem;
-    text-align: center;
 }
 
 section {
@@ -30,10 +28,9 @@ section {
     max-width: 960px;
 }
 
-/* padding: 0px keeps nav-bar at bottom of header */
+
 header {
     display: flex;
-    /* flex-direction: defined in layout ID; */
     justify-content: space-between;
     margin: 0 auto;
     background-color: var(--back_color2);
@@ -50,7 +47,7 @@ body {
 
 footer {
     padding: 1rem;
-    color: white;
+    color: var(--accent_color2);
     background-color: var(--back_color1);
     border-top: 1px solid var(--back_color1);
     border-bottom: 4px solid var(--back_color1);
@@ -59,55 +56,51 @@ footer {
 
 main {
     max-width: 1000px;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 nav {
-	background-color: orange;
+	background-color: var(--back_color1);
+    display: flex;
 }
 nav ul {
 	list-style-type: none;
 }
 nav a {
 	display: block;
-	color: #fff;
+	color: var(--accent_color2);
 	text-align: left;
 	padding: 1rem;
 	text-decoration: none;
 }
 nav a:hover {
     font-weight: 700;
-    color: black;
-    background-color: yellow;
+    color: var(--accent_color2);
+    background-color: var(--back_color2);
     text-decoration: underline;
-    text-decoration-color: red;
+    text-decoration-color: var(--back_color1);
 }
 
-/*-------------------------------------------------*/
-/* Item Selectors                                  */
-/*-------------------------------------------------*/
-/* Mobile View ***************/
 #layout {
-    /* display: flex defined in header tag */
+
     flex-direction: row;
 }
 
 #layout.show {
-    /* display: flex defined in header tag */
+
     flex-direction: column;
 }
 
 #menu {
-    display: flex;
+    display: block;
 	font-size: 1.5rem;
     text-decoration: none;
     padding: .5rem .75rem;
-	background-color: red;
-	color: yellow;
+	background-color: var(--accent_color1);
+	color: var(--back_color1);
 }
 
-/* content: "☰"; */
-/* content: "≡"; */
+
 #menu::before {
 	content: "☰";
 }
@@ -119,9 +112,6 @@ nav a:hover {
     display: none;
 }
 
-/*-------------------------------------------------*/
-/* Class Selectors                                 */
-/*-------------------------------------------------*/
 
 .container {
     display:grid;
@@ -130,7 +120,7 @@ nav a:hover {
     place-items: center;
 }
 
-.stdlf {
+.temples {
 	font-weight: 700;
     border-bottom: 1px solid #777;
     margin-bottom: 1rem;
@@ -138,37 +128,45 @@ nav a:hover {
 
 .navigation {
 	list-style: none;
-	background-color: green;
-	color: #fff;
+	background-color: var(--back_color2);
+	color: var(--accent_color2);
 }
 .navigation a {
 	display: none;
 	padding: 1rem;
 	text-align: left;
 	text-decoration: none;
-	color: #fff;
+	color: var(--accent_color2);
 }
 .navigation a:hover {
-	background-color: red;
-	color: #333;
+	background-color: var(--back_color2);
+	color: var(--accent_color2);
 	font-weight: 700;
 }
 
-.card {
-    margin: .5rem auto;
-    padding: .5rem;
-    background-color: white;
-    border: 1px black solid;
-    text-align: center;
-    max-width: 450px;
-    line-height: 1.5;
-    border-radius: 10px;
+.show a {
+    display: block;
+}
+.show a:hover {
+	background-color: var(--back_color2);
+	color: var(--accent_color2);
+	font-weight: 700;
 }
 
-.card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+.hide {
+    flex-direction: column;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* when the button is clicked - the show class is toggled (added/removed) */
