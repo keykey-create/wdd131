@@ -168,30 +168,3 @@ nav a:hover {
     font-weight: 400;
     font-style: normal;
 }
-
-/* when the button is clicked - the show class is toggled (added/removed) */
-/* show & hide all happen within the mobile page, not the larger page */
-.show a {
-    display: block;
-}
-.show a:hover {
-	background-color: green;
-	color: #333;
-	font-weight: 700;
-}
-
-.hide {
-    flex-direction: column;
-}
-
-.roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
-
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
