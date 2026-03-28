@@ -83,7 +83,7 @@ const temples = [
         width: "400px",
         height: "250px"
     },
-    // Add more temple objects here...
+
     {
         templeName: "Panamá City Panamá",
         location: "Ancon, Panamá, Panama",
@@ -114,6 +114,28 @@ const temples = [
         width: "400px",
         height: "225px"
     },
+	{
+        templeName: "Fort Collins, Colorado",
+        location: "Fort Collins, Colorado",
+        dedicated: "2016, October, 16",
+        area: 42000,
+        imageUrl:
+            "https://churchofjesuschristtemples.org/assets/img/temples/fort-collins-colorado-temple/fort-collins-colorado-temple-3331.jpg",
+        width: "400px",
+        height: "225px"
+    },
+	{
+        templeName: "Asuncion Paraguay",
+        location: "Asuncion Paraguay",
+        dedicated: "2002, May, 19",
+        area: 11906,
+        imageUrl:
+            "https://churchofjesuschristtemples.org/assets/img/temples/asuncion-paraguay-temple/asuncion-paraguay-temple-6948.jpg",
+        width: "400px",
+        height: "225px"
+    },
+	
+
 
 ];
 
