@@ -2,8 +2,8 @@
     /* CSS HEX */
     --oxford-blue: #0a1128ff;
     --penn-blue: #001f54ff;
-    --indigo-dye: #034078ff;
-    --cerulean: #1282a2ff;
+    --indigo-dye: rgb(127, 178, 226);
+    --cerulean: rgb(150, 219, 238);
     --white: #fefcfbff;
 
     --barlow-regular-font-family: "Barlow", sans-serif;
