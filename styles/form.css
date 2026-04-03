@@ -5,7 +5,7 @@
     --background-color: #f2e9e4;
     --text-color: #22223b;
     --highlight-color: #c9ada7;
-    --hover-color: orange;
+    --hover-color: rgb(255, 165, 0);
 
     --primary-color-rich-black: #0D1B2A;
     --secondary-color-oxford-blue: #1B263B;
@@ -32,7 +32,7 @@
     --nav-hover-background-color: var(--primary-color-rich-black);
 }
 
-/* General reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -133,7 +133,7 @@ textarea {
     height: 100px;
 }
 
-/* Rating styles */
+
 .rating-box {
     max-width: 100%;
     margin: 10px auto;
@@ -171,7 +171,6 @@ textarea {
     color: var(--hover-color);
 }
 
-/* Footer */
 footer {
     background-color: var(--nav-background-color);
     color: var(--headline-color-on-color);
