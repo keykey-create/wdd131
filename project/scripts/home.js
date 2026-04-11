@@ -3,24 +3,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const aboutMyself = document.querySelector('.about-myself');
     if (aboutMyself) {
         const aboutMyselfContent = `
-            <h2>Transitioning to Software Development</h2>
+            <h2>Time well spent with my Mom</h2>
             <p>
-                With a solid background in managing complex digital operations and customer service systems, I am
-                eager to transition into software development.
-            </p> 
+                When I was little whenever my mom sat down she would start some sort of crochet project. </p> 
             <p>
-                My experience at Bancolombia Panamá S.A. involved
-                overseeing digital operations, resolving escalated client queries, and ensuring high-quality
-                standards, all of which honed my problem-solving and technical skills.
+                Watching her working and creating really inspired me to pick up crochet. My first ever project was one my Mom helped me with. 
             </p>     
             <p>
-                At BAC International Bank, I managed Oracle's Siebel CRM and IBM AS/400 systems, providing solutions across multiple channels and
-                maintaining organized information systems. 
+                It was a misshapen scarf that has long since fallen apart, but I adored that time I spent with my mom.
             </p>
             <p>    
-                These roles have equipped me with a keen attention to
-                detail, operational management expertise, and a strong foundation in IT systems, positioning me well
-                for a career in software development.
+                Now every time I crochet I think of my Mom, and the time we spent together. 
             </p>
         `;
         aboutMyself.innerHTML = aboutMyselfContent;
@@ -29,23 +22,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const education = document.querySelector('.education');
     if (education) {
         const educationContent = `
-            <h2>Education</h2>
+            <h2>Additional Training</h2>
             <p>
-                Currently pursuing a B.S. in Software Development at Brigham Young University - Idaho, I am gaining
-                comprehensive skills in software engineering with a strong emphasis on web development. 
+                My mom was entirely self taught in her skills, so when i wanted to advance in my skills i had to look elsewhere.  
             </p>
             <p>
-                My education
-                has equipped me with proficiency in JavaScript, C#, GitHub, and MySQL, among other technologies
-                essential for a career in software development. 
+                This started with watching youtube videos. I would watch them and follow along stich for stich. 
             </p>
             <p>    
-                Additionally, I have earned certificates in computer
-                programming and computer support, which further enhance my technical expertise. 
+                Then I transitioned to learning how to read patterns. Then make those patterns fit me.  
             </p>
             <p>
-                I am also studying for a Bachelor in English at Universidad de Panamá, enriching my communication 
-                skills and broadening my educational background.
+                Now I am still learning, but I have paved the ground work for more complicated projects.
             </p>
         `;
         education.innerHTML = educationContent;
